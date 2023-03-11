@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int main(argc, *char argv[]);
-printf("%d\n", argc - 1);
+int _putchar(char c);
+int _atoi(char *s);
 
 #endif
