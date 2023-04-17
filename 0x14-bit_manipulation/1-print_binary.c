@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *print_binary - prints a binary number that is same as the decimal number
  *@n: This represents the number that is printed in binary
