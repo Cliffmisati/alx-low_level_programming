@@ -9,7 +9,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	int i, count = 0;
 	unsigned long int current;
-	unsigned long int exclusie = n ^ m;
+	unsigned long int exclusive = n ^ m;
 
 	for (i = 42; i >= 0; i--)
 	{
