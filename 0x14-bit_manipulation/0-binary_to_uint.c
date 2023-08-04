@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * binary_to_uint - changes a binary unit to unsigned int
- * @b: string containing the binary number
+ * binary_to_uint - this converts a binary number to an unsigned int
+ * @b: is string containing the binary number
  *
  * Return: the converted number
  */
@@ -13,9 +13,10 @@ unsigned int binary_to_uint(const char *b)
 
 	if (!b)
 		return (0);
+
 	for (i = 0; b[i]; i++)
 	{
-		if (b[1] < '0' || b[i] > '1')
+		if (b[i] < '0' || b[i] > '1')
 			return (0);
 		dec_val = 2 * dec_val + (b[i] - '0');
 	}
